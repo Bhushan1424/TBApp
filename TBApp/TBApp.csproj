@@ -163,6 +163,7 @@
     </Compile>
     <Compile Include="Models\ItemModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\ValidateModelRegister.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />

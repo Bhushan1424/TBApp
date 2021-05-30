@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Web.Http;
 using TBApp.DAL;
 using TBApp.Models;
+using WebApiValidation.Filter;
 
 namespace TBApp.Controllers
 {
@@ -34,6 +35,7 @@ namespace TBApp.Controllers
         }
 
         // POST api/Item
+        [ValidateModelRegister]
         public string Post([FromBody] ItemModel En)
         {
             string result = "";
